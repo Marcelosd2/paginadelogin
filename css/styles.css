@@ -1,0 +1,145 @@
+/* RESET E VARIÁVEIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  /* CONTAINER PRINCIPAL */
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* LADO ESQUERDO - FORMULÁRIO */
+  .left {
+    flex: 1;
+    padding: 40px;
+    background-color: #f8f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*centraliza horizontalmente*/
+  }
+
+  .form-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  .left form {
+    width: 100%;
+    max-width: 350px; 
+  }
+
+  
+  /* LADO DIREITO - IMAGEM */
+  .right {
+    flex: 1;
+    background: url("../images/capalogin.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* LOGO E TÍTULOS */
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #6c2bd9;
+    margin-bottom: 30px;
+  }
+  
+  .logo span {
+    margin-left: 8px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* FORMULÁRIO */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .senha-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .senha-label a {
+    font-size: 14px;
+    color: #6c2bd9;
+    text-decoration: none;
+  }
+  
+  /* BOTÃO */
+  button {
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #6c2bd9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5a22b3;
+  }
+  
+  /* TEXTO DE REGISTRO */
+  .registro {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .registro a {
+    color: #6c2bd9;
+    text-decoration: none;
+  }
+  
